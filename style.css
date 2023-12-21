@@ -1,0 +1,125 @@
+.body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #bedd8c;
+
+}
+.candidate{
+    display: flex;
+    gap: 0.8rem;
+
+    
+
+}
+.main{display: flex;}
+
+.candidate img{
+    display: flex;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.comments .h5{
+    font-size: 1.5rem;
+    font-weight: 100;
+    
+}
+.comments .p{
+    font-size: 1rem;
+}
+
+.left,.right,.standalone{
+    padding: 1.5rem;
+
+}
+.left{
+    background-color: #6A43BD;
+    color: white;
+}
+.right{
+    background-color: #40525A;
+    color: white;
+}
+.bottomleft{
+    background-color: #E1E4DF;
+}
+.standalone img{
+    display: flex;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+   
+}
+.bottom{
+    display: flex;
+}
+.parent{
+    margin: 2.5rem;
+
+}
+.top .left{
+    margin-right: 1rem;
+    border-radius: 2rem;
+}
+.bottom .bottomleft{
+    margin-right: 1rem;
+}
+@media screen and (min-width:785px){
+.main{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+.sectionone{
+    flex-basis: 75%;
+    height: 30px;
+    
+    
+    
+}
+.top{
+    display: flex;
+    margin-bottom: 1rem;
+    
+}
+.top .left{
+    flex-basis: 70%;
+    
+    
+    
+}
+.right{
+    flex-basis: 30%;
+    border-radius: 0.7rem;
+    
+    
+}
+
+.sectiontwo{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    
+}
+.bottom .bottomleft{
+    flex-basis: 30%;
+    border-radius: 0.7rem;
+
+}
+.bottomright{
+    flex-basis: 70%;
+    border-radius: 0.7rem;
+}
+.comment h5{
+    font-size: 1rem;
+}
+}
